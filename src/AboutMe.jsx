@@ -11,7 +11,7 @@ const AboutMe = () => {
 
             <section className="entered-contests">
                 <h2>Entered Contests</h2>
-                <p>I have participated in various coding contests including Hackathons, Code Jams, and local programming competitions.</p>
+                <p>I have participated in various coding contests including Google DevFest and local programming competitions in my college department.</p>
             </section>
 
             <section className="skills-expertise">
@@ -42,7 +42,7 @@ const AboutMe = () => {
 
             <section className="call-to-action">
                 <h2>Call to Action</h2>
-                <p>If you'd like to collaborate or just have a chat, feel free to reach out to me via email dorothyy015@gmail.com or contact my number +63 975 856 4299.</p>
+                <p>If you'd like to collaborate or just have a chat, feel free to reach out to me via email <a href="mailto:dorothyy015@gmail.com">dorothyy015@gmail.com</a> or contact my number +63 975 856 4299.</p>
             </section>
         </div>
     );
