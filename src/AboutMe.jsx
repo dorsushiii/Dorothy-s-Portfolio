@@ -31,7 +31,7 @@ const AboutMe = () => {
 
             <section className="career-goals">
                 <h2>Career Goals</h2>
-                <p>My career goal is to become a lead software engineer and graphic designer so i could contribute to open-source projects that make a difference.</p>
+                <p>My career goal is to become a lead software engineer and graphic designer so I could contribute to open-source projects that make a difference.</p>
             </section>
 
             <section className="personal-touch">
