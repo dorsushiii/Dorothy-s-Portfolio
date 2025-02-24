@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 50px;
-  background: linear-gradient(to right, #45a5fa, #07ecf8);
+  background: linear-gradient(to right, #8e44ad, #f39c12); /* Gradient from purple to pink */
   text-align: left;
   color: white;
 }
