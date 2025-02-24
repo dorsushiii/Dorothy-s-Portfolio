@@ -1,0 +1,30 @@
+.about-me {
+  padding: 50px;
+  background: linear-gradient(to right, #45a5fa, #07ecf8);
+  color: white;
+  text-align: left;
+}
+
+.about-me section {
+  margin-bottom: 40px;
+}
+
+.about-me h2 {
+  font-size: 2.5em; /* Adjust the size as needed */
+  font-weight: bold; /* Make the heading bold */
+  font-style: italic; /* Make the heading italic */
+  margin-bottom: 20px;
+}
+
+.about-me p, .about-me ul {
+  font-size: 1.5em; /* Increase the font size of the paragraph and list */
+}
+
+.about-me ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.about-me li {
+  margin-bottom: 10px;
+}
