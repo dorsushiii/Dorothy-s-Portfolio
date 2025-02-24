@@ -4,15 +4,48 @@
   align-items: center;
   justify-content: space-between;
   padding: 50px;
-  background: linear-gradient(to right, #4facfe, #00f2fe);
+  background: linear-gradient(to right, #45a5fa, #07ecf8);
   text-align: left;
   color: white;
 }
 
+.hero-content h1 {
+  font-size: 4em; /* Make the heading bigger */
+  font-weight: bold; /* Make the heading bold */
+  font-style: italic; /* Make the heading italic */
+}
+
+.hero-content p, .hero-content .hero-btn {
+  font-size: 1.5em; /* Increase the font size of the paragraph and button */
+}
+
+.hero-content .hero-btn {
+  background-color: white; /* Initial button color */
+  color: black; /* Initial text color */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.hero-content .hero-btn:hover {
+  background-color: #4facfe; /* Darker color on hover */
+  color: white; /* Change text color on hover */
+}
+
+.hero-image {
+  flex: 1; /* Make the image container take up the remaining space */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px; /* Move the image slightly to the right */
+}
+
 .hero-image img {
-  max-width: 50%;
-  width: 300px; /* Adjust size as needed */
-  border-radius: 10px; /* Optional: Rounded corners */
+  max-width: 90%; /* Adjust the size of the image to be at least 90% */
+  height: auto;
+  border-radius: 50%; /* Make the image circular */
+  border: 5px solid white; /* Optional: Add a white border around the image */
   opacity: 0; /* Start with the image hidden */
   animation: fadeIn 2s forwards; /* Apply the fade-in animation */
 }
