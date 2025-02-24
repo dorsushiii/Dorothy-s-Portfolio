@@ -11,7 +11,7 @@ const Hero = () => {
   };
 
   return (
-    <>
+    <div>
       <section className="hero">
         {/* Left Side: Text Content */}
         <div className="hero-content">
@@ -25,7 +25,7 @@ const Hero = () => {
           <img src={heroImage} alt="Hero Section" />
         </div>
       </section>
-    </>
+    </div>
   );
 };
 
