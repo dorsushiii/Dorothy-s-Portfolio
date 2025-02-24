@@ -3,10 +3,12 @@ import heroImage from "./assets/me-formal.jpg"; // Import your image
 
 const Hero = () => {
   const handleScroll = () => {
-    const aboutSection = document.getElementById("about");
-    if (aboutSection) {
-      aboutSection.scrollIntoView({ behavior: "smooth" });
-    }
+    setTimeout(() => {
+      const aboutSection = document.getElementById("about");
+      if (aboutSection) {
+        aboutSection.scrollIntoView({ behavior: "smooth" });
+      }
+    }, 500); // Delay of 500 milliseconds (0.5 seconds)
   };
 
   return (
