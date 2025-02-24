@@ -1,0 +1,30 @@
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    text-align: center;
+    color: white;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+  }
+  
+  .hero-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background: white;
+    color: #4facfe;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .hero-btn:hover {
+    background: #00f2fe;
+    color: white;
+  }
+  
