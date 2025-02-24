@@ -1,3 +1,4 @@
+import React from 'react';
 import "./Hero.css"; // Import the CSS file
 import heroImage from "./assets/me-formal.jpg"; // Import your image
 
